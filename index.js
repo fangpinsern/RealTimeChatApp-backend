@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server, {
   cors: {
-    origin: "https://ancient-brushlands-69345.herokuapp.com/",
+    origin: "https://blissful-kilby-e7ec08.netlify.app",
     methods: ["GET", "POST"],
   },
 });
